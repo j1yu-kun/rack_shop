@@ -1,14 +1,173 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="rus" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rack Shop</title>
+    <link rel="stylesheet" href="src/css/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600&display=swap" rel="stylesheet">
+    <title>Shelving store</title>
 </head>
-<body>
-    <header>
-        <div></div>
+<body class="bg-[#EBEBEB]">
+    <header class="w-full fixed bg-gradient-to-b from-[#EBEBEB] to-transparent">
+        <div class="w-[90%] h-[70px] m-auto flex justify-between text-sm items-center">
+            <a href="#" class="logo">Shelving Store</a>
+            <ul class="flex">
+                <li class="circle_nav"><a href="catalog.html">Catalog</a></li>
+                <li class="circle_nav"><a href="#about">About us</a></li>
+                <li class="circle_nav"><a href="#form">Submit application</a></li>
+            </ul>
+        </div>
     </header>
+
+    <!-- Intro -->
+    <div class="h-[90vh] bg-desk flex flex-row items-center px-[5%] justify-between">
+        <div class="flex gap-5 flex-col">
+            <h1 class="font-bold text-7xl">Shelving <br> Store</h1>
+            <p class="w-72">The largest range of racks in the country</p>
+            <a href="catalog.html" class="btn-blue">Catalog</a>
+        </div>
+        <div class="">
+            <img src="/src/img/image-2.webp">
+        </div>
+        <div class="text-white flex gap-5 flex-col">
+            <h2>Trade Rack</h2>
+            <p class="w-72">Commercial equipment of the Sparta series is perfect for arranging commercial premises of any type, from shops...</p>
+            <a href="#about" class="btn-white">More</a>
+        </div>
+    </div>
+    <!-- / Intro -->
+
+    <!-- Bestseller -->
+    <div class="bg-[#00202A] px-[5%] py-10">
+        <h2 class="circle-blue text-white text-2xl pb-10">Bestseller</h2>
+        <div class="flex justify-between pb-10">
+            <div class="card">
+                <div class="flex flex-col gap-2">
+                    <img src="/src/img/image-2.webp" alt="">
+                    <h2>Trade Rack</h2>
+                    <p>100$</p>
+                </div>
+                <div class="flex items-center justify-between text-xs">
+                    <p class="select"><span>Select</span></p>
+                    <a href="trade rack.html" class="btnt-b-blue">More</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="flex flex-col gap-2">
+                    <img src="/src/img/image-2.webp" alt="">
+                    <h2>Trade Rack</h2>
+                    <p>100$</p>
+                </div>
+                <div class="flex items-center justify-between text-xs">
+                    <p class="select"><span>Select</span></p>
+                    <a href="trade rack.html" class="btnt-b-blue">More</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="flex flex-col gap-2">
+                    <img src="/src/img/image-2.webp" alt="">
+                    <h2>Trade Rack</h2>
+                    <p>100$</p>
+                </div>
+                <div class="flex items-center justify-between text-xs">
+                    <p class="select"><span>Select</span></p>
+                    <a href="trade rack.html" class="btnt-b-blue">More</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="flex flex-col gap-2">
+                    <img src="/src/img/image-2.webp" alt="">
+                    <h2>Trade Rack</h2>
+                    <p>100$</p>
+                </div>
+                <div class="flex items-center justify-between text-xs">
+                    <p class="select"><span>Select</span></p>
+                    <a href="trade rack.html" class="btnt-b-blue">More</a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn-white">More</a>
+    </div>
+    <!-- / Bestseller -->
+
+    <!-- About Us -->
+    <div id="about" class="bg-[#00202A] flex justify-between items-center">
+        <div class="w-1/2 overflow-hidden">
+            <img class="scale-x-[-2] scale-y-[2] pt-32 pl-32" src="/src/img/image-2.webp" alt="">
+        </div>
+        <div class="w-1/2 pr-[5%]">
+            <h2 class="circle text-white text-2xl pb-10">About us</h2>
+            <p class="text-white text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel risus a velit sollicitudin egestas suscipit eu mi. Duis at est in justo rhoncus venenatis. Etiam facilisis risus id justo vehicula interdum. Vestibulum mauris erat, ornare eu lorem quis, facilisis hendrerit neque. Praesent eget tristique magna. In pharetra pulvinar dolor, eget finibus dolor congue eu. Nunc eget facilisis enim, lacinia ornare turpis. Aliquam a feugiat ex. Aenean sagittis sollicitudin ex, sed rhoncus lectus luctus et. Proin pulvinar vitae nunc id bibendum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec efficitur ut quam accumsan faucibus. Cras vitae vestibulum nunc. Ut ac lacinia lacus, at scelerisque justo.</p>
+            <div class="flex justify-evenly">
+                <div class="big-circle">
+                    <p>10</p>
+                    <p>years<br>on the market</p>
+                </div>
+                <div class="big-circle">
+                    <p>1</p>
+                    <p>year<br>warranty</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- / About Us -->
+
+    <!-- Form -->
+    <div id="form" class="px-[5%] py-10">
+        <h2 class="circle-blue text-2xl pb-3">Submit application</h2>
+        <p>Fill out the form and we will help you<br>with the choice</p>
+        <div class="form">
+            <div class="w-1/2 flex flex-col items-center gap-4">
+                    <input type="text" class="request-inp">
+                    <input type="tel" class="request-inp">
+                    <textarea class="text-inp"></textarea>
+                    <div class="flex justify-around gap-10">
+                        <label>
+                            <input type="checkbox">
+                            I consent to<br><a href="#form" class="text-[#00AADE]">data processing</a>
+                        </label>
+                        <a href="#" class="btn-blue">Submit</a>
+                    </div>
+            </div>
+            <div class="w-1/2">
+                <img src="/src/img/image-2.webp" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- / Form -->
+
+    <!-- Footer -->
+
+    <div class="bg-[#00202A] px-[5%] py-20 text-white flex justify-around flex-wrap">
+        <div class="w-full mb-10">
+            <a href="#" class="logo w-fit">Shelving Store</a>
+        </div>
+        <div class="flex flex-col gap-5">
+            <p class="">Adress</p>
+            <div class="mt-5 w-[250px] h-[200px] bg-[#EBEBEB]"></div>
+        </div>
+        <div class="flex flex-col gap-5">
+            <a href="">Catalog</a>
+            <a href="#about">About us</a>
+            <a href="#form">Submit application</a>
+        </div>
+        <div class="flex flex-col gap-5">
+            <p>contacts</p>
+            <p class="mt-5">+996996996996</p>
+            <p>+997997997997</p>
+            <p>email@page.com</p>
+            <div class="flex gap-2">
+                <img src="/src/img/Mask group-1.svg" alt="">
+                <img src="/src/img/Mask group-2.svg" alt="">
+                <img src="/src/img/Mask group-3.svg" alt="">
+                <img src="/src/img/Mask group.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- / Footer -->
+
 </body>
 </html>
